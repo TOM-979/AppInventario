@@ -1,0 +1,32 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 📦
+      - generic [ref=e9]:
+        - heading "Inventory Manager" [level=1] [ref=e10]
+        - paragraph [ref=e11]: SENATI - Gestión de Productos
+  - generic [ref=e14]:
+    - generic [ref=e16]:
+      - heading "➕ Nuevo Producto" [level=3] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Nombre
+          - textbox "Nombre" [ref=e22]:
+            - /placeholder: "Ej: Laptop Dell"
+        - generic [ref=e23]:
+          - generic [ref=e24]: Descripción
+          - textbox "Descripción" [ref=e25]:
+            - /placeholder: "Ej: Laptop de 15 pulgadas..."
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: Precio (S/)
+            - spinbutton "Precio (S/)" [ref=e29]
+          - generic [ref=e30]:
+            - generic [ref=e31]: Stock
+            - spinbutton "Stock" [ref=e32]
+        - button "Guardar Producto" [ref=e34] [cursor=pointer]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - heading "📋 Inventario de Productos" [level=3] [ref=e38]
+        - generic [ref=e39]: 0 productos
+      - paragraph [ref=e41]: Cargando productos...
